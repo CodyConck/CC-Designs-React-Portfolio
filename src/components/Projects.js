@@ -54,20 +54,22 @@ function Projects() {
     return (
         <Container fluid>
             <Row>
-                <Col>
-                    <h1>Hello! </h1>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={projectData.img} />
-                        <Card.Body>
-                            <Card.Title>{projectData.name}</Card.Title>
-                            <Card.Text>
-                                {projectData.description}
-                        </Card.Text>
-                            <Button variant="primary">{projectData.github}</Button>
-                            <Button variant="primary">{projectData.deployed}</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                {projectData.map((projectData) => (
+                    <Col>
+                        <h1>Projects</h1>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={projectData.img} />
+                            <Card.Body>
+                                <Card.Title>{projectData.name}</Card.Title>
+                                <Card.Text>
+                                    {projectData.description}
+                                </Card.Text>
+                                <Button variant="primary">{projectData.github}</Button>
+                                <Button variant="primary">{projectData.deployed}</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                ))}
             </Row>
         </Container>
     )
