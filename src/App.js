@@ -1,5 +1,5 @@
 import About from './components/About';
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
@@ -28,6 +28,9 @@ function App() {
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
+      <main>
+        
+      </main>
     </div>
   )
 }
