@@ -23,11 +23,11 @@ function Projects() {
             deployed: 'https://takes101.github.io/globe-trotting-and-bar-hopping/'
         },
         {
-            name: '',
-            description: '',
+            name: 'React-Task-Tracker2021',
+            description: 'A simple React based task organizer, built as an exercise to better understand the React framework. This was based off of a YouTube tutorial from Traversy Media',
             img: (''),
-            github: '',
-            deployed: ''
+            github: 'https://github.com/CodyConck/React-Task-Tracker2021',
+            deployed: 'https://codyconck.github.io/React-Task-Tracker2021/'
         },
         {
             name: '',
@@ -64,8 +64,8 @@ function Projects() {
                                 <Card.Text>
                                     {projectData.description}
                                 </Card.Text>
-                                <Button variant="primary">{projectData.github}</Button>
-                                <Button variant="primary">{projectData.deployed}</Button>
+                                <Button variant="primary" href={projectData.github} target="_blank">GitHub</Button>
+                                <Button variant="primary" href={projectData.deployed} target="_blank">Deployed App</Button>
                             </Card.Body>
                         </Card>
                     </Col>
