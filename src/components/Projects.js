@@ -30,24 +30,24 @@ function Projects() {
             deployed: 'https://codyconck.github.io/React-Task-Tracker2021/'
         },
         {
-            name: '',
-            description: '',
+            name: 'File-Uploader',
+            description: 'Front End of a file uploader built with react. Clone repo, install necessary dependencies, run "npm run dev"!',
             img: (''),
-            github: '',
+            github: 'https://github.com/CodyConck/file-uploader',
             deployed: ''
         },
         {
-            name: '',
-            description: '',
+            name: 'Team Profile Generator',
+            description: 'Command line application that uses Node.js to prompt a user to enter in information about their work team members. Once all prompts are answered, an HTML is generated using the user input to populate cards for each employees position.',
             img: (''),
-            github: '',
-            deployed: ''
+            github: 'https://github.com/CodyConck/Team-Profile-Generator',
+            deployed: 'https://drive.google.com/file/d/1OTRL2HgAlR27h5GKXHAFKVOf1DqCVLPD/view'
         },
         {
-            name: '',
-            description: '',
+            name: 'Regex Tutorial',
+            description: 'In this tutorial, I will break down a Regular Expression/Regex that is used to match an email.',
             img: (''),
-            github: '',
+            github: 'https://gist.github.com/CodyConck/1798fe20b62c67902415ea64e055943c',
             deployed: ''
         }
     ]
@@ -56,7 +56,7 @@ function Projects() {
             <Row>
                 {projectData.map((projectData) => (
                     <Col>
-                        <h1>Projects</h1>
+                        <h1></h1>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={projectData.img} />
                             <Card.Body>
