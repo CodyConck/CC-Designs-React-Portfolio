@@ -38,7 +38,7 @@ function Contact(props) {
         <Form id= 'contact' onSubmit={handleSubmit}>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label>name</Form.Label>
+                <Form.Label>Name</Form.Label>
                 <Form.Control type="text" name="name" placeholder="name" defaultValue={name} onBlur={handleChange} />
             </Form.Group>
 

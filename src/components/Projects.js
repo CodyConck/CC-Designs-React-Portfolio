@@ -23,6 +23,13 @@ function Projects() {
             deployed: 'https://takes101.github.io/globe-trotting-and-bar-hopping/'
         },
         {
+            name: 'One-Stop-Print-Shop',
+            description: 'Full stack MERN application that serves as an e-commercer site for a print shop.',
+            img: (''),
+            github: 'https://github.com/CodyConck/One-Stop-Print-Shop',
+            deployed: 'https://one-stop-print-shop.herokuapp.com/'
+        },
+        {
             name: 'React-Task-Tracker2021',
             description: 'A simple React based task organizer, built as an exercise to better understand the React framework. This was based off of a YouTube tutorial from Traversy Media',
             img: (''),
