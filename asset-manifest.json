@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CC-Designs-React-Portfolio/static/css/main.1b297e08.chunk.css",
-    "main.js": "/CC-Designs-React-Portfolio/static/js/main.a3fa1be6.chunk.js",
-    "main.js.map": "/CC-Designs-React-Portfolio/static/js/main.a3fa1be6.chunk.js.map",
+    "main.js": "/CC-Designs-React-Portfolio/static/js/main.b5140b92.chunk.js",
+    "main.js.map": "/CC-Designs-React-Portfolio/static/js/main.b5140b92.chunk.js.map",
     "runtime-main.js": "/CC-Designs-React-Portfolio/static/js/runtime-main.7380aca9.js",
     "runtime-main.js.map": "/CC-Designs-React-Portfolio/static/js/runtime-main.7380aca9.js.map",
     "static/css/2.818011ed.chunk.css": "/CC-Designs-React-Portfolio/static/css/2.818011ed.chunk.css",
@@ -11,13 +11,14 @@
     "index.html": "/CC-Designs-React-Portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/CC-Designs-React-Portfolio/static/css/2.818011ed.chunk.css.map",
     "static/css/main.1b297e08.chunk.css.map": "/CC-Designs-React-Portfolio/static/css/main.1b297e08.chunk.css.map",
-    "static/js/2.f175cad0.chunk.js.LICENSE.txt": "/CC-Designs-React-Portfolio/static/js/2.f175cad0.chunk.js.LICENSE.txt"
+    "static/js/2.f175cad0.chunk.js.LICENSE.txt": "/CC-Designs-React-Portfolio/static/js/2.f175cad0.chunk.js.LICENSE.txt",
+    "static/media/cody-headshot.e86cf96c.jpeg": "/CC-Designs-React-Portfolio/static/media/cody-headshot.e86cf96c.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.7380aca9.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.f175cad0.chunk.js",
     "static/css/main.1b297e08.chunk.css",
-    "static/js/main.a3fa1be6.chunk.js"
+    "static/js/main.b5140b92.chunk.js"
   ]
 }
