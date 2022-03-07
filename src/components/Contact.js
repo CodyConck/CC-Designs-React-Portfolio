@@ -34,7 +34,7 @@ function Contact(props) {
     }
     return (
         <div>
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <Form id= 'contact' onSubmit={handleSubmit}>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
