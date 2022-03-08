@@ -2,7 +2,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+//import Button from 'react-bootstrap/Button'
+import { MdLaptopMac } from 'react-icons/md'
+import { FaGithub } from 'react-icons/fa'
 
 import collage from '../assets/CollageSoA.png'
 import bar from '../assets/bar.png'
@@ -71,8 +73,15 @@ function Projects() {
                                 <Card.Text>
                                     {projectData.description}
                                 </Card.Text>
-                                <Button variant="primary" href={projectData.github} target="_blank">GitHub</Button>
-                                <Button variant="primary" href={projectData.deployed} target="_blank">Deployed App</Button>
+                              <h4 class= 'text-center'>
+                                <a href={projectData.github} target="_blank" style={{ padding: 10 }}>
+                                 <FaGithub/>
+                                </a>
+
+                                <a href={projectData.deployed} target="_blank" style={{ padding: 10 }}>
+                                <MdLaptopMac/>
+                                </a>
+                              </h4>
                             </Card.Body>
                         </Card>
                     </Col>
