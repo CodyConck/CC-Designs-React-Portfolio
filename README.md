@@ -1,2 +1,2 @@
 # Welcome
-Thanks for visiting my portfolio!
+Thanks for visiting my [Portfolio](https://codyconck.github.io/CC-Designs-React-Portfolio/)!
