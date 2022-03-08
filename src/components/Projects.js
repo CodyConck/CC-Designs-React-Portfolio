@@ -57,7 +57,7 @@ function Projects() {
             description: 'In this tutorial, I will break down a Regular Expression/Regex that is used to match an email.',
             img: regex,
             github: 'https://gist.github.com/CodyConck/1798fe20b62c67902415ea64e055943c',
-            deployed: ''
+            deployed: 'https://gist.github.com/CodyConck/1798fe20b62c67902415ea64e055943c'
         }
     ]
     return (
