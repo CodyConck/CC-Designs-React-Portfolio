@@ -74,11 +74,11 @@ function Projects() {
                                     {projectData.description}
                                 </Card.Text>
                               <h4 class= 'text-center'>
-                                <a href={projectData.github} target="_blank" style={{ padding: 10 }}>
+                                <a href={projectData.github} target="_blank" style={{ padding: 10 }} alt='GitHub profile link'>
                                  <FaGithub/>
                                 </a>
 
-                                <a href={projectData.deployed} target="_blank" style={{ padding: 10 }}>
+                                <a href={projectData.deployed} target="_blank" style={{ padding: 10 }} alt='live deployment link'>
                                 <MdLaptopMac/>
                                 </a>
                               </h4>
