@@ -68,17 +68,17 @@ function Projects() {
                         <h1></h1>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={projectData.img} />
-                            <Card.Body>
+                            <Card.Body >
                                 <Card.Title>{projectData.name}</Card.Title>
                                 <Card.Text>
                                     {projectData.description}
                                 </Card.Text>
                               <h4 class= 'text-center'>
-                                <a href={projectData.github} target="_blank" style={{ padding: 10 }} alt='GitHub profile link'>
+                                <a href={projectData.github} target="_blank" style={{ padding: 10 }} alt='GitHub profile link'rel="noreferrer">
                                  <FaGithub/>
                                 </a>
 
-                                <a href={projectData.deployed} target="_blank" style={{ padding: 10 }} alt='live deployment link'>
+                                <a href={projectData.deployed} target="_blank" style={{ padding: 10 }} alt='live deployment link'rel="noreferrer">
                                 <MdLaptopMac/>
                                 </a>
                               </h4>

@@ -1,0 +1,36 @@
+nav.mobile {
+    display: none;
+}
+    
+@media (max-width: 992px){
+    nav.webNav {
+        display: none
+    }
+    nav.mobile {
+        display: flex;
+        align-items: center;
+        height: 82.5px;
+        
+    }
+    svg.hamburger {
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+    div.mr-auto.navbar-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 82.5px;
+        right: 0;
+        width: 100%;
+        background: #181818;
+        border-top: 2px solid #8C1CD1; 
+        padding-left: 5%;
+    }
+    a.picture.navbar-brand {
+        padding-left: 5%;
+    }
+}
+
+

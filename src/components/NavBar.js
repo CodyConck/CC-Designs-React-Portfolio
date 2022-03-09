@@ -2,9 +2,11 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 import logo from '../assets/cody-headshot.jpeg';
 import React from 'react';
 
+import './mobileNav.css'
+
 function NavBar(props) {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="webNav" bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">
                     <img

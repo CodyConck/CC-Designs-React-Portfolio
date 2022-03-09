@@ -1,10 +1,12 @@
 import About from './components/About';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import MobileNav from './components/MobileNav';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import './App.css';
+import './components/mobileNav.css'
 
 import { useState } from 'react';
 
@@ -26,6 +28,7 @@ function App() {
     <div>
       {/* Pass the state value and the setter as props to NavBar */}
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <MobileNav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
       <main>
