@@ -1,0 +1,2 @@
+nav.mobile{display:none}@media (max-width:992px){nav.webNav{display:none}nav.mobile{display:flex;align-items:center;height:82.5px}svg.hamburger{position:absolute;right:5%;cursor:pointer}div.mr-auto.navbar-nav{display:flex;flex-direction:column;position:absolute;z-index:10;top:82.5px;right:0;width:100%;background:#181818;border-top:3px solid #345be5;padding-left:5%}a.picture.navbar-brand{align-items:left;padding-left:3%}}
+/*# sourceMappingURL=main.1cc853c5.chunk.css.map */
