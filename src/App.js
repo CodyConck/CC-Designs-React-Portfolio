@@ -11,7 +11,7 @@ import './components/mobileNav.css'
 import { useState } from 'react';
 
 function App() {
-  const [currentPage, handlePageChange] = useState('About');
+  const [currentPage, handlePageChange] = useState('About')
   const renderPage = () => {
     switch (currentPage) {
       case 'Resume':
@@ -28,8 +28,9 @@ function App() {
     <div>
       {/* Pass the state value and the setter as props to NavBar */}
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      <MobileNav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <MobileNav currentPage={currentPage} handlePageChange={handlePageChange}/>
       {/* Call the renderPage function passing in the currentPage */}
+      
       <div>{renderPage(currentPage)}</div>
       <main>
 

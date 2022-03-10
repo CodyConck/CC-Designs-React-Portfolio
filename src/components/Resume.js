@@ -2,9 +2,9 @@ import React from 'react'
 
 const Resume = () => {
     return (
-        <div class='container-fluid' id='resume'>
+        <div className='container-fluid' id='resume'>
                 <h2> Resume </h2>
-                <div class='container' id='resume'>
+                <div className='container' id='resume'>
                     <h3> Cody Concklin </h3>
                     <section id='resume-info'>
                         <p>Aspiring Web Developer with a life-long passion for learning new tools to better myself. My professional duties have afforded me a wide array of skills which I apply on a daily basis to work with others on collaborative projects. 

@@ -8,7 +8,7 @@ function NavBar(props) {
     return (
         <Navbar className="webNav" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand>
                     <img
                         alt=""
                         src={logo}

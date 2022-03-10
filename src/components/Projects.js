@@ -19,6 +19,7 @@ function Projects() {
     const projectData = [
         {
             name: 'State of the Art',
+            id: 0,
             description: 'This full stack web application allows users to search for and locate works of art.',
             img: collage,
             github: 'https://github.com/CodyConck/ArtFiles2',
@@ -26,6 +27,7 @@ function Projects() {
         },
         {
             name: 'One-Stop-Print-Shop',
+            id: 1,
             description: 'Full stack MERN application that serves as an e-commercer site for a print shop.',
             img: print,
             github: 'https://github.com/CodyConck/One-Stop-Print-Shop',
@@ -33,6 +35,7 @@ function Projects() {
         },
         {
             name: 'Team Profile Generator',
+            id: 2,
             description: 'Command line application that uses Node.js to prompt a user to enter in information about their work team members. Once all prompts are answered, an HTML is generated using the user input to populate cards for each employees position.',
             img: team,
             github: 'https://github.com/CodyConck/Team-Profile-Generator',
@@ -40,6 +43,7 @@ function Projects() {
         },
         {
             name: 'Brewed Force',
+            id: 3,
             description: 'A website designed for globe-trotting beer enthusiasts that matches users with breweries in new cities.',
             img: bar,
             github: 'https://github.com/CodyConck/globe-trotting-and-bar-hopping',
@@ -47,6 +51,7 @@ function Projects() {
         },
         {
             name: 'React-Task-Tracker2021',
+            id: 4,
             description: 'A simple React based task organizer, built as an exercise to better understand the React framework. This was based off of a YouTube tutorial from Traversy Media',
             img: task,
             github: 'https://github.com/CodyConck/React-Task-Tracker2021',
@@ -54,6 +59,7 @@ function Projects() {
         },
         {
             name: 'Regex Tutorial',
+            id: 5,
             description: 'In this tutorial, I will break down a Regular Expression/Regex that is used to match an email.',
             img: regex,
             github: 'https://gist.github.com/CodyConck/1798fe20b62c67902415ea64e055943c',
@@ -65,15 +71,14 @@ function Projects() {
             <Row>
                 {projectData.map((projectData) => (
                     <Col>
-                        <h1></h1>
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '18rem' }} key={projectData.id}>
                             <Card.Img variant="top" src={projectData.img} />
                             <Card.Body >
                                 <Card.Title>{projectData.name}</Card.Title>
                                 <Card.Text>
                                     {projectData.description}
                                 </Card.Text>
-                              <h4 class= 'text-center'>
+                              <h4 className= 'text-center'>
                                 <a href={projectData.github} target="_blank" style={{ padding: 10 }} alt='GitHub profile link'rel="noreferrer">
                                  <FaGithub/>
                                 </a>

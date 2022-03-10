@@ -20,29 +20,30 @@ function MobileNav(props) {
         size='40px' color='white'
         onClick={() => setOpen(!open)}
     />
-
+    const closeMenu = () => setOpen(false);
+    
     return (
         <Navbar className="mobile" bg="dark" variant="dark" >
-            <Navbar.Brand href="#home" className="picture">
-                <img
-                    alt=""
-                    src={logo}
-                    width="50"
-                    height="50"
-                    className="d-inline-block align-top"
-                />{' '}
-                Cody Concklin
-            </Navbar.Brand>
-            
-            {open ? closeIcon : hamburgerIcon}
-            {open && <Nav className="mr-auto">
+            <Container class="container-fluid">
+                <Navbar.Brand className="picture">
+                    <img
+                        alt=""
+                        src={logo}
+                        width="50"
+                        height="50"
+                        className="d-inline-block align-top"
+                    />{' '}
+                    Cody Concklin
+                </Navbar.Brand>
 
-                <Nav.Link onClick={() => props.handlePageChange('About')} href="#home">About</Nav.Link>
-                <Nav.Link onClick={() => props.handlePageChange('Projects')} href="#home">Projects</Nav.Link>
-                <Nav.Link onClick={() => props.handlePageChange('Resume')} href="#home">Resume</Nav.Link>
-                <Nav.Link onClick={() => props.handlePageChange('Contact')} href="#home">Contact</Nav.Link>
-            </Nav>}
-
+                {open ? closeIcon : hamburgerIcon}
+                {open && <Nav className="mr-auto">
+                    <Nav.Link onClick={() => props.handlePageChange('About') + closeMenu()} href="#home">About</Nav.Link>
+                    <Nav.Link onClick={() => props.handlePageChange('Projects') + closeMenu()} href="#home">Projects</Nav.Link>
+                    <Nav.Link onClick={() => props.handlePageChange('Resume') + closeMenu()} href="#home">Resume</Nav.Link>
+                    <Nav.Link onClick={() => props.handlePageChange('Contact') + closeMenu()} href="#home">Contact</Nav.Link>
+                 </Nav>}
+            </Container>
         </Navbar>
     )
 }

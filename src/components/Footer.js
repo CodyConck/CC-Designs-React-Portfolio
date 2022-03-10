@@ -4,7 +4,7 @@ import { BsEnvelope } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div id='footer' class= 'text-center'style={{ padding: 20 }}>
+        <div id='footer' className= 'text-center'style={{ padding: 20 }}>
             <h4>
                 
                 <a href='https://github.com/codyconck' style={{ padding: 10 }} target='_blank' rel='noopener noreferrer' alt='GitHub profile link' >

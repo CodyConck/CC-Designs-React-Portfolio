@@ -21,15 +21,17 @@ nav.mobile {
         display: flex;
         flex-direction: column;
         position: absolute;
+        z-index: 10;
         top: 82.5px;
         right: 0;
         width: 100%;
         background: #181818;
-        border-top: 2px solid #8C1CD1; 
+        border-top: 3px solid #345be5; 
         padding-left: 5%;
     }
     a.picture.navbar-brand {
-        padding-left: 5%;
+        align-items: left;
+        padding-left: 3%;
     }
 }
 
