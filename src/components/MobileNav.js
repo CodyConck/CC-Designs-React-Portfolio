@@ -24,7 +24,7 @@ function MobileNav(props) {
     
     return (
         <Navbar className="mobile" bg="dark" variant="dark" >
-            <Container class="container-fluid">
+            <Container>
                 <Navbar.Brand className="picture">
                     <img
                         alt=""
